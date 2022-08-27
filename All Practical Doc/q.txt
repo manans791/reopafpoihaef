@@ -1,0 +1,16 @@
+(A)Multiple Email Sender
+
+Excel ->  Title, Details(To, From, Body)
+
+Send SMTP Mail Message
+To 
+Subject 
+Body
+
+-----------------------------------------------
+(B) 
+->Trigger Scope
+->Hot Key trigger
+Sequece-> attached window-> indicate screen -Desktop-> 
+Do-> Double Click-> 
+Anchor Base -> first Maximize button then close

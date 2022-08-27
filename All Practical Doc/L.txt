@@ -1,0 +1,31 @@
+1. Open browser -> Platform.uipath.com
+2. Orchestator
+3. Assets
+4. Add Assest - > Create
+5. 
+
+
+Next Practical
+1. install Main Plugin
+2. Get Password
+3. Enter Password details in Properties
+4. Mail is less secure
+5. Add acticity -> Send SMTP Mail Message
+6. Property : Host
+Port : 587
+Server : "smtp.gmail.com"
+7. Property : Logon
+email: " @gmail.com"
+Create Variable : getPass
+
+PDF Pluggin
+All Packages : PDf activities install
+1. Activity : Read PDf text -> Prop -> Range -> "1-2"
+2. Give the PDf path
+3. Activity :  Write txt file
+4. Give the Path
+5. Create a var Message 
+6. Activity : Read PDF with OCR ->  Ui path document OCR  -> Tesseract OCR -> Prop -> Range -> "1-2"
+7. Create Var : Message OCR
+8. Activioty :  Message Box
+9. Print variable -> Message OCR.ToString
